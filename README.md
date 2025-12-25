@@ -63,5 +63,27 @@ _Recursion_ _call_ :
     return (1.11 * hitungLaba(saldo, tahun - 1));
 ```
 
-2.  
+2.  Trace fase ekspansi dan subtitusi untuk hitungLaba(100000, 3):
+
+Fase Ekspansi:
+
+```java
+    hitungLaba(100000,3)
+    = 1.11 * hitungLaba(100000,2)
+    = 1.11 * (1.11 * hitungLaba(100000,1))
+    = 1.11 * (1.11 * (1.11 * hitungLaba(100000,0)))
+```
+
+Fase Subtitusi:
+
+```java
+    hitungLaba(100000,0) = 100000
+    = 1.11 * 100000
+    = 111000
+    = 1.11 * 111000
+    = 123210
+    = 1.11 * 123210
+    = 136763.1
+```
+
 --- 
