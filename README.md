@@ -17,3 +17,21 @@
 Perbedaannya terletak pada alur program. Fungsi rekursif menghitung faktorial dengan memanggil dirinya sendiri hingga mencapai kondisi berhenti (n == 0), sedangkan fungsi iteratif menggunakan perulangan for tanpa pemanggilan fungsi berulang.
 
 ---
+
+#   Percobaan 2
+
+---
+
+##  Soal
+
+1.  Pada Percobaan2, terdapat pemanggilan fungsi rekursif hitungPangkat(bilangan, pangkat) pada fungsi main, kemudian dilakukan pemanggilan fungsi hitungPangkat() secara berulangkali. Jelaskan sampai kapan proses pemanggilan fungsi tersebut akan dijalankan! 
+2.  Tambahkan kode program untuk mencetak deret perhitungan pangkatnya. Contoh: hitungPangkat(2,5) dicetak 2x2x2x2x2x1 = 32
+
+---
+
+##  Jawaban
+
+1.  Proses pemanggilan fungsi rekursif hitungPangkat(x, y) akan terus dijalankan selama nilai y belum sama dengan 0. Pemanggilan akan berhenti ketika y == 0 (base case), kemudian fungsi mengembalikan nilai 1.
+2.  
+
+---
