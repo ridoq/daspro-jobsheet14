@@ -32,6 +32,6 @@ Perbedaannya terletak pada alur program. Fungsi rekursif menghitung faktorial de
 ##  Jawaban
 
 1.  Proses pemanggilan fungsi rekursif hitungPangkat(x, y) akan terus dijalankan selama nilai y belum sama dengan 0. Pemanggilan akan berhenti ketika y == 0 (base case), kemudian fungsi mengembalikan nilai 1.
-2.  
+2.  done✅
 
 ---
