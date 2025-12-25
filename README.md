@@ -35,3 +35,33 @@ Perbedaannya terletak pada alur program. Fungsi rekursif menghitung faktorial de
 2.  done✅
 
 ---
+
+#   Percobaan 3
+
+---
+
+##  Soal
+
+1.  Pada Percobaan3, sebutkan blok kode program manakah yang merupakan “base case”  dan “recursion call”! 
+2.  Jabarkan trace fase ekspansi dan fase subtitusi algoritma,  perhitungan laba di atas jika  diberikan nilai hitungLaba(100000,3) 
+
+---
+
+##  Jawaban
+
+1.  base case:
+
+```java
+    if (tahun == 0) {
+        return (saldo);
+    }
+```
+
+_Recursion_ _call_ : 
+
+```java
+    return (1.11 * hitungLaba(saldo, tahun - 1));
+```
+
+2.  
+--- 
